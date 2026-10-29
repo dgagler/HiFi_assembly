@@ -1,0 +1,5 @@
+[M::ha_analyze_count] lowest: count[4095] = 0
+[M::ha_ct_shrink::9.933*1.00] ==> counted 0 distinct minimizer k-mers
+[M::ha_ft_gen::9.933*1.00@16.046GB] ==> filtered out 0 k-mers occurring -5 or more times
+[M::ha_opt_update_cov] updated max_n_chain to 100
+/var/spool/slurmd/job627723/slurm_script: line 22: 2242180 Segmentation fault      (core dumped) hifiasm -o results/${name}.asm -t ${SLURM_CPUS_PER_TASK} raw_data/ECAP-11.hifi_reads.bam
